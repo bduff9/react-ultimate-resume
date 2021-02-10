@@ -1,272 +1,406 @@
 {
-    "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
-        "picture": "",
-        "email": "john.doe@mail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
-        "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
-        },
-        "profiles": [
-            {
-                "network": "Twitter",
-                "username": "john",
-                "url": "http://twitter.com/john"
-            }
-        ]
-    },
-    "work": [
-        {
-            "name": "Company 2 ",
-            "position": "Worker",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        },
-        {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        },
-        {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        }
-    ],
-    "volunteer": [
-        {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "website": "http://organization.com/",
-            "endDate": "2013-01-01",
-            "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
-        }
-    ],
-    "education": [
-        {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        },
-        {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        }
-    ],
-    "awards": [
-        {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
-        }
-    ],
-    "skills": [
-        {
-            "name": "Reactaaa",
-            "level": "Master",
-            "value": 100,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Angular",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "NodeJS",
-            "level": "Master",
-            "value": 40,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Firebase",
-            "level": "Master",
-            "value": 60,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Gmail",
-            "level": "Master",
-            "value": 20,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "K8S",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        }
-    ],
-    "languages": [{ "language": "English", "value": 100, "fluency": "Native speaker" }],
-    "interests": [
-    ],
-    "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
-    "projects": [
-        {
-            "index": 5,
-            "date": { "month": 11, "year": 2019 },
-            "description": "Moteur de recherche via le nom de films réalisée avec ReactJs:\nRequête à l'Api rest avec Fetch, utilisation des hooks.\n",
-            "id": "7f1f4257-e5db-477d-aa5f-ababe0ab0b12",
-            "images": [{ "url": "https://cdn.filestackcontent.com/aBOkTTkCQ66VOHUy0q8L" }],
-            "link": "https://lovely-movie.netlify.app/",
-            "name": "Lovely Movie",
-            "endDate": "2019-12-01"
-        },
-        {
-            "index": 2,
-            "date": { "month": 0, "year": 2020 },
-            "description": "Application de gestion de tâches réalisée avec ReactJs / Redux / Firebase :\nCréation de composants avec Styled Components, gestions de formulaires et validation des entrées, création d'une authentification, récupération / création / modification / suppression de tâches.",
-            "id": "af4181b1-8955-47fb-8dd9-17c6974335d3",
-            "images": [{ "url": "https://cdn.filestackcontent.com/G2CckiqvScC9tsrvHYg4" }],
-            "link": "https://diary-todo.netlify.app/",
-            "name": "Journal d'une Todo",
-            "endDate": "2020-01-01"
-        },
-        {
-            "index": 4,
-            "date": { "month": 5, "year": 2020 },
-            "description": "Blog réalisé en Java JEE et Spring, avec création d'une base de données MySQL et connectée avec JDBC.",
-            "id": "af8c78c3-f7c6-4f3b-9c32-9d37a9032e14",
-            "images": [{ "url": "https://cdn.filestackcontent.com/rPp0wj4S2GhTr0qTcqOI" }],
-            "link": "https://btz-java-2003-pjt1-blog.javarover.wilders.dev/",
-            "name": "Charlie's Angels blog",
-            "endDate": "2020-06-01"
-        },
-        {
-            "index": 3,
-            "date": { "month": 5, "year": 2020 },
-            "description": "** Pensée uniquement pour téléphone **\nApplication permettant de connaître la météo actuelle d'une ville. Réalisée afin de découvrir VueJs.",
-            "id": "c64e6ca1-6300-4d7f-a305-8cfb7c99a9e6",
-            "images": [{ "url": "https://cdn.filestackcontent.com/w5oskUihSiYCxekOn9Ba" }],
-            "link": "https://appli-meteo.netlify.app/",
-            "name": "Application Météo",
-            "endDate": "2020-06-01"
-        },
-        {
-            "index": 1,
-            "date": { "month": 7, "year": 2020 },
-            "description": "Premières armes avec Angular et Typescript :\nMise en place d'un environnement Angular, développement d'une authentification avec Firebase, gestion des formulaires, utilisation d'observable avec RxJs.\n",
-            "id": "d9f7ca32-a40a-418e-affb-317bfb4f520e",
-            "images": [{ "url": "https://cdn.filestackcontent.com/NVOhKNFQR9OQ3jtkIyHi" }],
-            "link": "https://my-connected-library.netlify.app/",
-            "name": "Librairie Connectée",
-            "endDate": "2020-08-01"
-        },
-        {
-            "index": 6,
-            "date": { "month": 4, "year": 2019 },
-            "description": "Moteur de recherche basé sur le jeu World of Warcraft, premiers pas avec ReatJs.\nRequête à l'API Raider.io avec Axios.",
-            "id": "dbe2a8d9-dd9d-443d-8ae4-7a8e0b7939f5",
-            "images": [{ "url": "https://cdn.filestackcontent.com/FSysoX0ATvqy2BFvLF21" }],
-            "link": "https://wow-search-engine.netlify.app/",
-            "name": "WoW Search",
-            "endDate": "2019-05-01"
-        },
-        {
-            "index": 0,
-            "date": { "month": 6, "year": 2020 },
-            "description": "Application réalisée en 24h (challenge de formation) avec Java JEE et Spring:\nGestion d’un CRUD, création d'une API Rest, ajout d'un environnement de production avec une base de données PostgreSQL hébergée sur Heroku.",
-            "id": "ffb8a4f2-24e6-44ef-bbe7-0593b86d40be",
-            "images": [{ "url": "https://cdn.filestackcontent.com/7XpHKtFTC2VynppurrK5" }],
-            "link": "https://your-todos-list.herokuapp.com/",
-            "name": "Your Todo List",
-            "endDate": "2020-07-01"
-        }
-    ],
-    "specific": {
-        "basics": {
-            "visaSponsorship": true,
-            "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
-        },
-        "dreamJob": {
-            "locations": [
-                { "name": "Valenciennes, France" },
-                { "name": "Lille, France" },
-                { "name": "Paris,France" },
-                { "name": "Paris,France" },
-                { "name": "Lille, France" },
-                { "name": "Valenciennes, France" }
-            ],
-            "remoteFrequency": "regularly"
-        },
-        "currentJob": {
-            "issues": { "boring_management": true, "boring_team": true }
-        },
-        "education": { "studiesLevel": 5 },
-        "work": {
-            "contractTypes": ["permanent"],
-            "codingYears": 7,
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
-            "searchState": "activelySearching",
-            "experienceYears": 0,
-            "codeExperienceYears": 1,
-            "otherExperienceYears": 1
-        },
-        "sound": {
-            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
-        },
-        "interestedBy": "Angular, la blochain et les chatons."
-    },
-    "resumeCustomization": {
-        "imageHeader": {
-            "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
-            "alt": "Default Banner"
-        },
-        "cardsOrder": [
-            { "type": "basics", "variant": 4 },
-            { "type": "projects", "variant": 4 },
-            { "type": "skills", "variant": 0 },
-            { "type": "dreamjob", "variant": 4 },
-            { "type": "experiences", "variant": 4 },
-            { "type": "studies", "variant": 4 },
-            { "type": "gifs", "variant": 0 },
-            { "type": "interestedBy", "variant": 3 },
-            { "type": "language", "variant": 4 },
-            { "type": "soundtrack", "variant": 4 }
-        ],
-        "fields": {
-            "work": {
-                "customDateFormat": "YYYY"
-            }
-        }
-    }
+	"basics": {
+		"name": "Brian Duffey",
+		"label": "Solutions Architect",
+		"picture": "brian-duffey.jpg",
+		"email": "brian.e.duffey@gmail.com",
+		"phone": "(847) 722-6010",
+		"website": "https://brianduffey.com",
+		"summary": "Technology generalist with over 10 years of professional experience",
+		"location": {
+			"address": "9 Hiawatha Dr",
+			"postalCode": "IL 60514",
+			"city": "Clarendon Hills, US, US",
+			"countryCode": "US",
+			"region": "Illinois",
+			"name": "Clarendon Hills, US, US"
+		},
+		"profiles": [{
+			"network": "Github",
+			"username": "bduff9",
+			"url": "https://github.com/bduff9"
+		},
+		{
+			"network": "LinkedIn",
+			"username": "brianeduffey",
+			"url": "https://www.linkedin.com/in/brianeduffey/"
+		},
+		{
+			"network": "Twitter",
+			"username": "duffmaster33",
+			"url": "http://twitter.com/duffmaster33"
+		}]
+	},
+	"work": [{
+		"index": 0,
+		"id": "f22986ca-fba6-40c0-b6fa-31dd682e037f",
+		"name": "Lead Lab Media",
+		"position": "Consultant",
+		"place": {
+			"name": "Los Angeles, CA"
+		},
+		"startDate": "2020-08-08",
+		"summary": "Technical consultant on Google Analytics and Google Tag Manager",
+		"location": "Los Angeles, CA"
+	}, {
+		"name": "Productive Edge",
+		"position": "Solutions Architect",
+		"website": "http://company.com",
+		"startDate": "2020-06-01",
+		"summary": "Technical lead on projects within travel/hospitality and medical supply industries",
+		"location": "Chicago, IL",
+		"highlights": ["Started the company"],
+		"id": "2bd218f3-77e2-417f-879b-17775e1e58ab",
+		"place": {
+			"name": "Chicago, IL"
+		},
+		"stillEmployed": true,
+		"index": 1
+	}, {
+		"name": "Inspire11",
+		"position": "Engineering Team Lead/Solutions Architect",
+		"website": "http://company.com",
+		"startDate": "2018-08-01",
+		"endDate": "2020-06-01",
+		"summary": "Leader within engineering department and technical lead on many projects including financial services, transportation, pharmaceutical, and live media streaming",
+		"location": "Chicago, IL",
+		"highlights": ["Started the company"],
+		"id": "cf1bb9a0-5b5e-446b-a8d4-13c47be86321",
+		"place": {
+			"name": "Chicago, IL"
+		},
+		"stillEmployed": false,
+		"index": 2
+	}, {
+		"name": "Michaels, Ross & Cole, ltd.",
+		"position": "Application Architect",
+		"website": "http://company.com",
+		"summary": "Developer on m-Power product and consultant on many different projects including banking, medical supplies, and hospitality industries",
+		"location": "Oakbrook, IL",
+		"highlights": ["Started the company"],
+		"id": "cfb5be58-876b-411d-a074-58255efa897a",
+		"startDate": "2011-08-08",
+		"endDate": "2018-07-01",
+		"place": {
+			"name": "Oakbrook, IL"
+		},
+		"stillEmployed": false,
+		"index": 3
+	}],
+	"volunteer": [{
+		"organization": "CrossFit Carol Stream",
+		"position": "IT Volunteer",
+		"website": "https://www.crossfitcarolstream.com/",
+		"endDate": "2017-01-01",
+		"summary": "Assisted with website and other various technical things",
+		"highlights": []
+	}],
+	"education": [{
+		"position": 2,
+		"id": "ffacb393-9a9c-40bf-a63b-1a56586fc42a",
+		"institution": "Benedictine University",
+		"endDate": "2014-01-01",
+		"studyType": "MSMIS",
+		"area": "Information Security focus"
+	}, {
+		"institution": "Benedictine University",
+		"area": "Information Security focus",
+		"studyType": "MBA",
+		"startDate": "2011-01-01",
+		"endDate": "2014-01-01",
+		"gpa": "4.0",
+		"courses": ["DB1101 - Basic SQL"],
+		"id": "4d589c8e-e3b6-4a6d-a15f-9a43b2cae9fe"
+	}, {
+		"position": 1,
+		"id": "8ab8ca22-8f62-40ee-8243-d6467b1446cf",
+		"institution": "University of Illinois - Urbana-Champaign",
+		"endDate": "2009-01-01",
+		"studyType": "Bachelor of Communication",
+		"area": "Minor in Sociology"
+	}],
+	"awards": [{
+		"title": "Award",
+		"date": "2014-11-01",
+		"awarder": "Company",
+		"summary": "There is no spoon."
+	}],
+	"publications": [{
+		"name": "Publication",
+		"publisher": "Company",
+		"releaseDate": "2014-10-01",
+		"website": "http://publication.com",
+		"summary": "Description..."
+	}],
+	"skills": [{
+		"name": "React",
+		"index": 0,
+		"value": 100,
+		"id": "490c436a-6d7e-4a7c-9b86-471e52f638ac"
+	}, {
+		"name": "SQL",
+		"index": 1,
+		"value": 90,
+		"id": "37bfdabb-7a0d-433b-8a07-c6a5af669d72"
+	}, {
+		"name": "Typescript",
+		"index": 2,
+		"value": 80,
+		"id": "a817096a-bc74-4b4c-9ca2-1c464611cbd0"
+	}, {
+		"name": "NodeJS",
+		"level": "Master",
+		"value": 80,
+		"keywords": ["HTML", "CSS", "Javascript"],
+		"index": 3,
+		"id": "cc865e54-01b3-4ee1-8c69-84190ce82d39"
+	}, {
+		"name": "GraphQL",
+		"index": 4,
+		"value": 80,
+		"id": "eec0e05a-6047-464f-bf49-ca4e77aef42c"
+	}, {
+		"name": "Java",
+		"index": 5,
+		"value": 70,
+		"id": "e6dfa7c2-9c97-4378-b0be-8a9d6cf527d3"
+	}, {
+		"name": "Python",
+		"index": 6,
+		"value": 60,
+		"id": "e8ca5980-83dd-4150-8d3e-3563915d54d3"
+	}, {
+		"name": "Angular",
+		"level": "Master",
+		"value": 60,
+		"keywords": ["HTML", "CSS", "Javascript"],
+		"index": 7,
+		"id": "538f6442-4bbe-4700-96b6-0a8b4873aeb7"
+	}, {
+		"name": "Amazon Web Services",
+		"index": 8,
+		"value": 50,
+		"id": "c54e97ab-5d04-4585-88ff-c2f457386ad0"
+	}, {
+		"name": "Go",
+		"index": 9,
+		"value": 40,
+		"id": "a4367c92-711e-47ec-83b6-755d5e19b7eb"
+	}, {
+		"name": "Kubernetes",
+		"index": 10,
+		"value": 40,
+		"id": "bacce85c-72f0-4548-b241-d1b7250ccd50"
+	}, {
+		"name": "Rust",
+		"index": 11,
+		"value": 30,
+		"id": "bfd7aa71-3c42-441c-876a-0a53edab6c26"
+	}],
+	"languages": [{
+		"language": "English",
+		"value": 100,
+		"fluency": "Native speaker",
+		"id": "057ccda1-1de0-420b-b800-15064cff2063",
+		"index": 0
+	}, {
+		"index": 1,
+		"id": "f4986884-5581-4cd5-8418-b3c0d2197a2c",
+		"language": "Spanish",
+		"value": 40
+	}, {
+		"index": 2,
+		"id": "b847cf59-45be-42c2-a0bd-bc3bb2ac8999",
+		"language": "German",
+		"value": 30
+	}],
+	"interests": [{
+		"index": 0,
+		"id": "9b8a82d2-af57-46bf-a805-362a4f46b0f4",
+		"gifUrl": "https://media.giphy.com/media/GR1WWKadM9m0g/giphy.gif",
+		"name": "Playing video games"
+	}, {
+		"index": 1,
+		"id": "3c0527f0-2bae-4104-a4ea-e00c6ac8b144",
+		"gifUrl": "https://media.giphy.com/media/vAjhdaZ6MsKI0/giphy.gif",
+		"name": "Working out"
+	}, {
+		"index": 2,
+		"id": "fe78f5ab-2291-4790-99d7-a5a41c921a61",
+		"gifUrl": "https://media.giphy.com/media/r7c183ibrGbOnsSfZY/giphy.gif",
+		"name": "Watching movies/TV"
+	}, {
+		"index": 3,
+		"id": "709d4546-a103-49a9-8213-474a2ff23b9d",
+		"gifUrl": "https://33.media.tumblr.com/c8e19f08fcd1ba3548ae94aba7f0698f/tumblr_ntgbwopPoj1s3qhcao3_500.gif",
+		"name": "Personal projects"
+	}],
+	"references": [{
+		"name": "Jane Doe",
+		"reference": "Reference..."
+	}],
+	"projects": [{
+		"name": "m-Power Data Explorer",
+		"date": "2018-01-08T05:00:00.000Z",
+		"description": "While working at mrc, I helped to create this self-service data visualization tool, using React/Redux on the frontend and Java/Spring on the backend.",
+		"link": "https://www.mrc-productivity.com/solutions/dx.html",
+		"images": [{
+			"url": "/dx.png"
+		}],
+		"id": "de3cb7f5-279d-4324-826f-a92b374d4ac4",
+		"endDate": "2018-01-08",
+		"index": 1
+	}, {
+		"name": "Movie Tracker",
+		"date": "2017-05-08T05:00:00.000Z",
+		"description": "I created a movie tracker web application to track movies I own, have seen, or want to see.  All metadata for each movie can be stored and all movies can be filtered and sorted as needed.",
+		"link": "https://movies.asitewithnoname.com/",
+		"images": [{
+			"url": "/movies.png"
+		}],
+		"id": "de3cb7f5-279d-4324-826f-a92b374d4ac5",
+		"endDate": "2017-05-08",
+		"index": 2
+	}, {
+		"name": "NFL Confidence Pool",
+		"date": "2012-07-08T05:00:00.000Z",
+		"description": "I created an NFL confidence pool web application from scratch for friends and family.  I have maintaining it every season since with an average user count per season of 35 players.",
+		"link": "https://nfl.asitewithnoname.com/",
+		"images": [{
+			"url": "https://www.asitewithnoname.com/img/apps/nfl-pool.png"
+		}],
+		"id": "de3cb7f5-279d-4324-826f-a92b374d4ac6",
+		"endDate": "2012-07-08",
+		"index": 3
+	}],
+	"specific": {
+		"basics": {
+			"visaSponsorship": false,
+			"personalDescription": "Experienced Architect with a demonstrated history of working in the consulting and software industries. Skilled in JS (Node, React, Angular, Vue, Svelte), JVM (Java, Kotlin), Python, Databases, and AWS. Prior experience with Go, Rust, Azure, and Kubernetes. Strong engineering professional with an MBA, MSMIS focused around Information Security from Benedictine University. Strong with problem-solving, attention to detail, and constant learning of new technologies. Previous/current roles also include sales/proposals, recruiting/interviewing, and managing. "
+		},
+		"dreamJob": {
+			"locations": [{
+				"name": "Chicago, IL",
+				"id": "c658c56d-cc8b-467c-b8dd-a884315e1da2"
+			}, {
+				"name": "Seattle, WA",
+				"id": "48370c20-799a-4128-930c-459fd897a8b3"
+			}, {
+				"name": "California",
+				"id": "c450d9f3-196e-4805-8cc3-f878cb71cd51"
+			}],
+			"remoteFrequency": "occasionally",
+			"perks": {
+				"salary": true,
+				"mood": true,
+				"challenge": true
+			}
+		},
+		"currentJob": {
+			"issues": {
+				"other": "No current issues"
+			}
+		},
+		"education": {
+			"studiesLevel": 7
+		},
+		"work": {
+			"contractTypes": ["permanent", "freelance"],
+			"codingYears": 24,
+			"codingReason": "I taught myself to code on an old Apple IIe when I was 9 and have not stopped learning and creating since",
+			"searchState": "dreamjobOnly",
+			"experienceYears": 0,
+			"codeExperienceYears": 10.5,
+			"otherExperienceYears": 6
+		},
+		"sound": {
+			"embedUrl": "https://open.spotify.com/embed/album/4US3nmuLIKELhVZdBPiKxx?si=XyFuKz3nQQCfwyh95-ZaEA"
+		},
+		"interestedBy": "IoT, Blockchain, WebAssembly"
+	},
+	"resumeCustomization": {
+		"imageHeader": {
+			"url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
+			"alt": "Default Banner"
+		},
+		"cardsOrder": [{
+			"type": "basics",
+			"variant": 4
+		}, {
+			"type": "projects",
+			"variant": 4
+		}, {
+			"type": "skills",
+			"variant": 0
+		}, {
+			"type": "dreamjob",
+			"variant": 4
+		}, {
+			"type": "experiences",
+			"variant": 4
+		}, {
+			"type": "studies",
+			"variant": 4
+		}, {
+			"type": "gifs",
+			"variant": 0
+		}, {
+			"type": "interestedBy",
+			"variant": 3
+		}, {
+			"type": "language",
+			"variant": 4
+		}, {
+			"type": "soundtrack",
+			"variant": 4
+		}],
+		"fields": {
+			"work": {
+				"customDateFormat": "YYYY"
+			}
+		},
+		"theme": {
+			"palette": {
+				"primary": {
+					"50": "#e8ebef",
+					"100": "#d1d6df",
+					"200": "#a4adbf",
+					"300": "#76849f",
+					"400": "#495b7f",
+					"500": "#1b325f",
+					"600": "#16284c",
+					"700": "#101e39",
+					"800": "#0b1426",
+					"900": "#050a13",
+					"contrastDefaultColor": "light"
+				},
+				"secondary": {
+					"50": "#f5f9fc",
+					"100": "#ebf3fa",
+					"200": "#d7e7f4",
+					"300": "#c4dcef",
+					"400": "#b0d0e9",
+					"500": "#9cc4e4",
+					"600": "#7d9db6",
+					"700": "#5e7689",
+					"800": "#3e4e5b",
+					"900": "#1f272e",
+					"contrastDefaultColor": "light"
+				},
+				"tertiary": {
+					"50": "#fdfefe",
+					"100": "#fbfcfe",
+					"200": "#f6fafd",
+					"300": "#f2f7fb",
+					"400": "#edf5fa",
+					"500": "#e9f2f9",
+					"600": "#bac2c7",
+					"700": "#8c9195",
+					"800": "#5d6164",
+					"900": "#2f3032",
+					"contrastDefaultColor": "light"
+				}
+			}
+		}
+	}
 }
