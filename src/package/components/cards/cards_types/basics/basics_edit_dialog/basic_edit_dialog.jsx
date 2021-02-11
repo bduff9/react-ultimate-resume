@@ -131,7 +131,7 @@ const Content = ({ helpers: { handleValueChange, toggleValue } }) => {
                 subtitle={
                     <FormattedMessage
                         id="Basics.editDialog.codingYears.subtitle"
-                        defaultMessage="(every experiences, studies, personal projects, work...)"
+                        defaultMessage="(including all experiences, studies, personal projects, work, etc.)"
                     />
                 }
             >

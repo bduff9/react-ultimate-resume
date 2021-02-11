@@ -10,10 +10,10 @@
 		"location": {
 			"address": "9 Hiawatha Dr",
 			"postalCode": "IL 60514",
-			"city": "Clarendon Hills, US, US",
+			"city": "Clarendon Hills",
 			"countryCode": "US",
 			"region": "Illinois",
-			"name": "Clarendon Hills, US, US"
+			"name": "Home"
 		},
 		"profiles": [{
 			"network": "Github",
@@ -32,17 +32,6 @@
 		}]
 	},
 	"work": [{
-		"index": 0,
-		"id": "f22986ca-fba6-40c0-b6fa-31dd682e037f",
-		"name": "Lead Lab Media",
-		"position": "Consultant",
-		"place": {
-			"name": "Los Angeles, CA"
-		},
-		"startDate": "2020-08-08",
-		"summary": "Technical consultant on Google Analytics and Google Tag Manager",
-		"location": "Los Angeles, CA"
-	}, {
 		"name": "Productive Edge",
 		"position": "Solutions Architect",
 		"website": "http://company.com",
@@ -55,7 +44,18 @@
 			"name": "Chicago, IL"
 		},
 		"stillEmployed": true,
-		"index": 1
+		"index": 0
+	}, {
+		"index": 1,
+		"id": "f22986ca-fba6-40c0-b6fa-31dd682e037f",
+		"name": "Lead Lab Media",
+		"position": "Consultant",
+		"place": {
+			"name": "Los Angeles, CA"
+		},
+		"startDate": "2020-08-08",
+		"summary": "Technical consultant on Google Analytics and Google Tag Manager",
+		"location": "Los Angeles, CA"
 	}, {
 		"name": "Inspire11",
 		"position": "Engineering Team Lead/Solutions Architect",
@@ -133,24 +133,24 @@
 		"summary": "Description..."
 	}],
 	"skills": [{
-		"name": "React",
-		"index": 0,
-		"value": 100,
-		"id": "490c436a-6d7e-4a7c-9b86-471e52f638ac"
-	}, {
-		"name": "SQL",
-		"index": 1,
-		"value": 90,
-		"id": "37bfdabb-7a0d-433b-8a07-c6a5af669d72"
-	}, {
 		"name": "Typescript",
-		"index": 2,
+		"index": 0,
 		"value": 80,
 		"id": "a817096a-bc74-4b4c-9ca2-1c464611cbd0"
 	}, {
+		"name": "React",
+		"index": 1,
+		"value": 90,
+		"id": "490c436a-6d7e-4a7c-9b86-471e52f638ac"
+	}, {
+		"name": "SQL",
+		"index": 2,
+		"value": 90,
+		"id": "37bfdabb-7a0d-433b-8a07-c6a5af669d72"
+	}, {
 		"name": "NodeJS",
 		"level": "Master",
-		"value": 80,
+		"value": 90,
 		"keywords": ["HTML", "CSS", "Javascript"],
 		"index": 3,
 		"id": "cc865e54-01b3-4ee1-8c69-84190ce82d39"
@@ -207,12 +207,12 @@
 		"index": 1,
 		"id": "f4986884-5581-4cd5-8418-b3c0d2197a2c",
 		"language": "Spanish",
-		"value": 40
+		"value": 30
 	}, {
 		"index": 2,
 		"id": "b847cf59-45be-42c2-a0bd-bc3bb2ac8999",
 		"language": "German",
-		"value": 30
+		"value": 20
 	}],
 	"interests": [{
 		"index": 0,
@@ -222,7 +222,7 @@
 	}, {
 		"index": 1,
 		"id": "3c0527f0-2bae-4104-a4ea-e00c6ac8b144",
-		"gifUrl": "https://media.giphy.com/media/vAjhdaZ6MsKI0/giphy.gif",
+		"gifUrl": "https://media.giphy.com/media/WrBSHRLE9gEgM/giphy.gif",
 		"name": "Working out"
 	}, {
 		"index": 2,
@@ -232,7 +232,7 @@
 	}, {
 		"index": 3,
 		"id": "709d4546-a103-49a9-8213-474a2ff23b9d",
-		"gifUrl": "https://33.media.tumblr.com/c8e19f08fcd1ba3548ae94aba7f0698f/tumblr_ntgbwopPoj1s3qhcao3_500.gif",
+		"gifUrl": "https://media.giphy.com/media/g4sCZhKykg1z2/giphy.gif",
 		"name": "Personal projects"
 	}],
 	"references": [{
@@ -249,7 +249,7 @@
 		}],
 		"id": "de3cb7f5-279d-4324-826f-a92b374d4ac4",
 		"endDate": "2018-01-08",
-		"index": 1
+		"index": 2
 	}, {
 		"name": "Movie Tracker",
 		"date": "2017-05-08T05:00:00.000Z",
@@ -260,7 +260,7 @@
 		}],
 		"id": "de3cb7f5-279d-4324-826f-a92b374d4ac5",
 		"endDate": "2017-05-08",
-		"index": 2
+		"index": 3
 	}, {
 		"name": "NFL Confidence Pool",
 		"date": "2012-07-08T05:00:00.000Z",
@@ -271,7 +271,7 @@
 		}],
 		"id": "de3cb7f5-279d-4324-826f-a92b374d4ac6",
 		"endDate": "2012-07-08",
-		"index": 3
+		"index": 1
 	}],
 	"specific": {
 		"basics": {
@@ -305,11 +305,11 @@
 			"studiesLevel": 7
 		},
 		"work": {
-			"contractTypes": ["permanent", "freelance"],
+			"contractTypes": ["freelance", "permanent"],
 			"codingYears": 24,
 			"codingReason": "I taught myself to code on an old Apple IIe when I was 9 and have not stopped learning and creating since",
 			"searchState": "dreamjobOnly",
-			"experienceYears": 0,
+			"experienceYears": 16,
 			"codeExperienceYears": 10.5,
 			"otherExperienceYears": 6
 		},
@@ -320,7 +320,8 @@
 	},
 	"resumeCustomization": {
 		"imageHeader": {
-			"url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
+			"url_old": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
+			"url": "/header.jpg",
 			"alt": "Default Banner"
 		},
 		"cardsOrder": [{
