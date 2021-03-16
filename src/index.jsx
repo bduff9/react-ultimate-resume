@@ -1,6 +1,7 @@
 /* eslint-disable */
 import React from 'react';
 import ReactDOM from 'react-dom';
+import * as Sentry from "@sentry/react";
 import App from './App';
 
 import { DEFAULT_THEME } from '@welovedevs/ui/styles/theme';
@@ -10,6 +11,16 @@ import './styles/animations.css';
 import { create } from 'jss';
 import { JssProvider } from 'react-jss';
 import jssDefaultPreset from 'jss-preset-default';
+
+Sentry.init({
+    dsn: "https://e62b43aab3034ec8a1c585bab70df42e@o502207.ingest.sentry.io/5678302",
+    integrations: [new Integrations.BrowserTracing()],
+
+    // Set tracesSampleRate to 1.0 to capture 100%
+    // of transactions for performance monitoring.
+    // We recommend adjusting this value in production
+    tracesSampleRate: 1.0,
+});
 
 const muiInstance = create(jssDefaultPreset());
 muiInstance.setup({ insertionPoint: 'mui-insertion-point' });
