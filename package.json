@@ -48,7 +48,7 @@
         "copy-to-clipboard": "^3.3.1",
         "cp-cli": "^2.0.0",
         "downloadjs": "^1.4.7",
-        "formik": "^2.1.2",
+        "formik": "^2.2.9",
         "jss-preset-default": "10.0.3",
         "lodash": "^4.17.15",
         "moment": "^2.24.0",
@@ -69,7 +69,7 @@
         "uuid": "^3.4.0",
         "values.js": "^1.0.3",
         "whatwg-fetch": "^2.0.4",
-        "yup": "^0.28.0"
+        "yup": "^0.32.10"
     },
     "devDependencies": {
         "@babel/cli": "^7.8.4",
