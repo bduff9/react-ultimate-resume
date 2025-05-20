@@ -1,12 +1,12 @@
 {
 	"basics": {
 		"name": "Brian Duffey",
-		"label": "Solutions Architect",
+		"label": "Engineering Manager / Architect",
 		"picture": "brian-duffey.jpg",
 		"email": "brian.e.duffey@gmail.com",
 		"phone": "(847) 722-6010",
 		"website": "https://brianduffey.com",
-		"summary": "Technology generalist with over 10 years of professional experience",
+		"summary": "Technology generalist with over 14 years of professional experience",
 		"location": {
 			"address": "9 Hiawatha Dr",
 			"postalCode": "IL 60514",
@@ -32,18 +32,30 @@
 		}]
 	},
 	"work": [{
+		"index": 0,
+		"id": "2bd218f3-77e2-417f-879b-17775e1e58ab",
+		"name": "Renewance, Inc.",
+		"position": "Engineering Manager",
+		"website": "http://company.com",
+		"startDate": "2024-02-16",
+		"endDate": null,
+		"summary": "Built team and platform around renewable energy solutions",
+		"location": "Elmhurst, IL",
+		"stillEmployed": true
+	},
+	{
 		"name": "Productive Edge",
 		"position": "Solutions Architect",
 		"website": "http://company.com",
 		"startDate": "2020-06-01",
+		"endDate": "2024-01-31",
 		"summary": "Technical lead on projects within travel/hospitality and medical supply industries",
 		"location": "Chicago, IL",
-		"highlights": ["Started the company"],
 		"id": "2bd218f3-77e2-417f-879b-17775e1e58ab",
 		"place": {
 			"name": "Chicago, IL"
 		},
-		"stillEmployed": true,
+		"stillEmployed": false,
 		"index": 0
 	}, {
 		"index": 1,
@@ -55,7 +67,8 @@
 		},
 		"startDate": "2020-08-08",
 		"summary": "Technical consultant on Google Analytics and Google Tag Manager",
-		"location": "Los Angeles, CA"
+		"location": "Los Angeles, CA",
+		"stillEmployed": true
 	}, {
 		"name": "Inspire11",
 		"position": "Engineering Team Lead/Solutions Architect",
@@ -276,20 +289,18 @@
 	"specific": {
 		"basics": {
 			"visaSponsorship": false,
-			"personalDescription": "Experienced Architect with a demonstrated history of working in the consulting and software industries. Skilled in JS (Node, React, Angular, Vue, Svelte), JVM (Java, Kotlin), Python, Databases, and AWS. Prior experience with Go, Rust, Azure, and Kubernetes. Strong engineering professional with an MBA, MSMIS focused around Information Security from Benedictine University. Strong with problem-solving, attention to detail, and constant learning of new technologies. Previous/current roles also include sales/proposals, recruiting/interviewing, and managing. "
+			"personalDescription": "Experienced Manager/Architect with a demonstrated history of working in the consulting and software industries. Skilled in JS (Node, React, Angular, Vue, Svelte), JVM (Java, Kotlin), Python, Databases, and AWS. Prior experience with Go, Rust, Azure, and Kubernetes. Strong engineering professional with an MBA, MSMIS focused around Information Security from Benedictine University. Strong with problem-solving, attention to detail, and constant learning of new technologies. Previous/current roles also include sales/proposals, recruiting/interviewing, and managing."
 		},
 		"dreamJob": {
 			"locations": [{
-				"name": "Chicago, IL",
+				"name": "Illinois",
 				"id": "c658c56d-cc8b-467c-b8dd-a884315e1da2"
-			}, {
-				"name": "Seattle, WA",
-				"id": "48370c20-799a-4128-930c-459fd897a8b3"
-			}, {
+			},
+			{
 				"name": "California",
 				"id": "c450d9f3-196e-4805-8cc3-f878cb71cd51"
 			}],
-			"remoteFrequency": "occasionally",
+			"remoteFrequency": "regularly",
 			"perks": {
 				"salary": true,
 				"mood": true,
@@ -310,13 +321,13 @@
 			"codingReason": "I taught myself to code on an old Apple IIe when I was 9 and have not stopped learning and creating since",
 			"searchState": "dreamjobOnly",
 			"experienceYears": 16,
-			"codeExperienceYears": 10.5,
+			"codeExperienceYears": 14.5,
 			"otherExperienceYears": 6
 		},
 		"sound": {
 			"embedUrl": "https://open.spotify.com/embed/album/4US3nmuLIKELhVZdBPiKxx?si=XyFuKz3nQQCfwyh95-ZaEA"
 		},
-		"interestedBy": "IoT, Blockchain, WebAssembly"
+		"interestedBy": "IoT, GenAI, WebAssembly"
 	},
 	"resumeCustomization": {
 		"imageHeader": {
